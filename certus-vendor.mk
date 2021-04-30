@@ -445,6 +445,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib/lib_speech_enh.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_speech_enh.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libabfadp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libabfadp.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libacdk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdk.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libakl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libakl.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapmonitor_vendor.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \

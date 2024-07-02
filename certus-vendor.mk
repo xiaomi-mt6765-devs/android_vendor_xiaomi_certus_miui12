@@ -166,7 +166,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/etc/ecc_list_OP17.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP17.xml \
     vendor/xiaomi/certus/proprietary/vendor/etc/ecc_list_OP18.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP18.xml \
     vendor/xiaomi/certus/proprietary/vendor/etc/ecc_list_mx_telcel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_mx_telcel.xml \
-    vendor/xiaomi/certus/proprietary/vendor/etc/fstab.mt6765:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.mt6765 \
     vendor/xiaomi/certus/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
     vendor/xiaomi/certus/proprietary/vendor/etc/fteh.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fteh.cfg \
     vendor/xiaomi/certus/proprietary/vendor/etc/fts_lens_boe.ini:$(TARGET_COPY_OUT_VENDOR)/etc/fts_lens_boe.ini \

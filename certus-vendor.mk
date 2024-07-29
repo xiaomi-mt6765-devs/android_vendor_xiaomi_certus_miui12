@@ -375,8 +375,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib/hw/gralloc.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.mt6765.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/hw/hwcomposer.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.mt6765.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/hw/keystore.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.mt6765.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib/hw/kmsetkey.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/kmsetkey.default.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/hw/kmsetkey.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/kmsetkey.mt6765.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/hw/kmwechat.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/kmwechat.mt6765.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/libSoftGatekeeper.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/hw/lights.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.mt6765.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/hw/memtrack.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.mt6765.so \
@@ -606,7 +606,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib/libipsec_ims_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libipsec_ims_shr.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libjpeg-alpha-oal_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeg-alpha-oal_vendor.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libjpeg-alpha_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeg-alpha_vendor.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libkmsetkey.so:$(TARGET_COPY_OUT_VENDOR)/lib/libkmsetkey.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libksensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libksensor.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libladder.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libmedia.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmedia.so \
@@ -795,9 +794,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib/vendor.mediatek.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.wifi.supplicant@2.0.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/vendor.mediatek.hardware.wifi.supplicant@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.wifi.supplicant@2.1.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/vendor.microtrust.hardware.soter@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.microtrust.hardware.soter@1.0.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/wechat.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/wechat.mt6765.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/hw/gatekeeper.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.mt6765.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/hw/keystore.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.mt6765.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/hw/kmsetkey.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/kmsetkey.default.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/hw/kmsetkey.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/kmsetkey.mt6765.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libSoftGatekeeper.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libkmsetkey.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkmsetkey.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
     vendor/xiaomi/certus/proprietary/vendor/thh/ta/08010203000000000000000000000000.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/08010203000000000000000000000000.ta \
     vendor/xiaomi/certus/proprietary/vendor/thh/ta/14498ace2a8f11e880c8509a4c146f4c.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/14498ace2a8f11e880c8509a4c146f4c.ta \
     vendor/xiaomi/certus/proprietary/vendor/thh/ta/3d08821c33a611e6a1fa089e01c83aa2.ta:$(TARGET_COPY_OUT_VENDOR)/thh/ta/3d08821c33a611e6a1fa089e01c83aa2.ta \

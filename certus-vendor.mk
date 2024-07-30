@@ -445,7 +445,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib/lib_speech_enh.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_speech_enh.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libabfadp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libabfadp.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libacdk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdk.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libakl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libakl.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapmonitor_vendor.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
@@ -780,12 +779,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib64/hw/sensors.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.mt6765.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTEECommon.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libdirect-coredump.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdirect-coredump.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwm.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libimsg_log.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimsg_log.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libkmsetkey.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkmsetkey.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libksensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libksensor.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libladder.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libmtee.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtee.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libsensor_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_custom.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libudf.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/vendor.microtrust.hardware.capi@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.microtrust.hardware.capi@2.0.so \

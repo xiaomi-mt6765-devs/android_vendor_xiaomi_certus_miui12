@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/bin/dconfig:$(TARGET_COPY_OUT_VENDOR)/bin/dconfig \
     vendor/xiaomi/certus/proprietary/vendor/bin/epdg_wod:$(TARGET_COPY_OUT_VENDOR)/bin/epdg_wod \
     vendor/xiaomi/certus/proprietary/vendor/bin/factory:$(TARGET_COPY_OUT_VENDOR)/bin/factory \
-    vendor/xiaomi/certus/proprietary/vendor/bin/factoryAta:$(TARGET_COPY_OUT_VENDOR)/bin/factoryAta \
     vendor/xiaomi/certus/proprietary/vendor/bin/flashlessd:$(TARGET_COPY_OUT_VENDOR)/bin/flashlessd \
     vendor/xiaomi/certus/proprietary/vendor/bin/fuelgauged_nvram:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged_nvram \
     vendor/xiaomi/certus/proprietary/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
@@ -40,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.wifi@1.0-service-lazy-mediatek \
     vendor/xiaomi/certus/proprietary/vendor/bin/hw/camerahalserver:$(TARGET_COPY_OUT_VENDOR)/bin/hw/camerahalserver \
     vendor/xiaomi/certus/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
-    vendor/xiaomi/certus/proprietary/vendor/bin/hw/interfaces.factoryInterface@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/interfaces.factoryInterface@1.0-service \
     vendor/xiaomi/certus/proprietary/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
     vendor/xiaomi/certus/proprietary/vendor/bin/hw/power_legacy_test_v_1_0:$(TARGET_COPY_OUT_VENDOR)/bin/hw/power_legacy_test_v_1_0 \
     vendor/xiaomi/certus/proprietary/vendor/bin/hw/power_native_test_v_1_0:$(TARGET_COPY_OUT_VENDOR)/bin/hw/power_native_test_v_1_0 \
@@ -420,10 +418,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib/hw/vendor.mediatek.hardware.pq@2.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.pq@2.3-impl.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/hw/vulkan.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.mt6765.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/interfaces.factoryAta@1.0-adapter-helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/interfaces.factoryAta@1.0-adapter-helper.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/interfaces.factoryAta@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/interfaces.factoryAta@1.0.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/interfaces.factoryInterface@1.0-adapter-helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/interfaces.factoryInterface@1.0-adapter-helper.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/interfaces.factoryInterface@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/interfaces.factoryInterface@1.0.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libBnMtkCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBnMtkCodec.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libDR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDR.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libFactoryHALCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFactoryHALCommon.so \

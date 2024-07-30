@@ -5,13 +5,6 @@
 soong_namespace {
 }
 
-dex_import {
-	name: "com.fingerprints.extension",
-	owner: "xiaomi",
-	jars: ["proprietary/vendor/framework/com.fingerprints.extension.jar"],
-	soc_specific: true,
-}
-
 prebuilt_etc_xml {
 	name: "android.hardware.gpu@1.0-service",
 	owner: "xiaomi",

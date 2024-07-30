@@ -64,6 +64,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/bin/lib3a.ccu.pm:$(TARGET_COPY_OUT_VENDOR)/bin/lib3a.ccu.pm \
     vendor/xiaomi/certus/proprietary/vendor/bin/libccu_cactus_hi556_sunny_mipi_raw.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_cactus_hi556_sunny_mipi_raw.dm \
     vendor/xiaomi/certus/proprietary/vendor/bin/libccu_cactus_hi556_sunny_mipi_raw.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_cactus_hi556_sunny_mipi_raw.pm \
+    vendor/xiaomi/certus/proprietary/vendor/bin/libccu_cactus_ov13855_ofilm_mipi_raw.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_cactus_ov13855_ofilm_mipi_raw.dm \
+    vendor/xiaomi/certus/proprietary/vendor/bin/libccu_cactus_ov13855_ofilm_mipi_raw.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_cactus_ov13855_ofilm_mipi_raw.pm \
+    vendor/xiaomi/certus/proprietary/vendor/bin/libccu_cactus_s5k3l8_sunny_mipi_raw.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_cactus_s5k3l8_sunny_mipi_raw.dm \
+    vendor/xiaomi/certus/proprietary/vendor/bin/libccu_cactus_s5k3l8_sunny_mipi_raw.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_cactus_s5k3l8_sunny_mipi_raw.pm \
+    vendor/xiaomi/certus/proprietary/vendor/bin/libccu_cactus_s5k5e8yx_ofilm_mipi_raw.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_cactus_s5k5e8yx_ofilm_mipi_raw.dm \
+    vendor/xiaomi/certus/proprietary/vendor/bin/libccu_cactus_s5k5e8yx_ofilm_mipi_raw.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_cactus_s5k5e8yx_ofilm_mipi_raw.pm \
     vendor/xiaomi/certus/proprietary/vendor/bin/libccu_cereus_imx486_sunny_mipi_raw.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_cereus_imx486_sunny_mipi_raw.dm \
     vendor/xiaomi/certus/proprietary/vendor/bin/libccu_cereus_imx486_sunny_mipi_raw.pm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_cereus_imx486_sunny_mipi_raw.pm \
     vendor/xiaomi/certus/proprietary/vendor/bin/libccu_cereus_ov12a10_ofilm_mipi_raw.dm:$(TARGET_COPY_OUT_VENDOR)/bin/libccu_cereus_ov12a10_ofilm_mipi_raw.dm \
@@ -213,14 +219,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/etc/audio_policy_configuration_bluetooth_legacy_hal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration_bluetooth_legacy_hal.xml \
     vendor/xiaomi/certus/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
     vendor/xiaomi/certus/proprietary/vendor/etc/aurisys_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_param/Speech_AudioParam.xml \
-    vendor/xiaomi/certus/proprietary/vendor/etc/camera/female_bg.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/female_bg.png \
-    vendor/xiaomi/certus/proprietary/vendor/etc/camera/female_icon.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/female_icon.png \
-    vendor/xiaomi/certus/proprietary/vendor/etc/camera/lf_facerank_model.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/lf_facerank_model.bin \
-    vendor/xiaomi/certus/proprietary/vendor/etc/camera/male_bg.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/male_bg.png \
-    vendor/xiaomi/certus/proprietary/vendor/etc/camera/male_icon.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/male_icon.png \
-    vendor/xiaomi/certus/proprietary/vendor/etc/camera/score_bg.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/score_bg.png \
-    vendor/xiaomi/certus/proprietary/vendor/etc/camera/score_icon.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/score_icon.png \
-    vendor/xiaomi/certus/proprietary/vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin \
     vendor/xiaomi/certus/proprietary/vendor/etc/cdma_ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cdma_ecc_list.xml \
     vendor/xiaomi/certus/proprietary/vendor/etc/cdma_ecc_list_OP01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cdma_ecc_list_OP01.xml \
     vendor/xiaomi/certus/proprietary/vendor/etc/cdma_ecc_list_OP09.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cdma_ecc_list_OP09.xml \
@@ -324,24 +322,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/etc/ipsec/ipsec.d/cacerts/thawte.der:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ipsec.d/cacerts/thawte.der \
     vendor/xiaomi/certus/proprietary/vendor/etc/ipsec/ssl/openssl.cnf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/ssl/openssl.cnf \
     vendor/xiaomi/certus/proprietary/vendor/etc/ipsec/strongswan.conf:$(TARGET_COPY_OUT_VENDOR)/etc/ipsec/strongswan.conf \
-    vendor/xiaomi/certus/proprietary/vendor/etc/mmigroup/CommonParam.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/CommonParam.json \
-    vendor/xiaomi/certus/proprietary/vendor/etc/mmigroup/MMIGroupADBCmdTest.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupADBCmdTest.json \
-    vendor/xiaomi/certus/proprietary/vendor/etc/mmigroup/MMIGroupASAutoTest.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupASAutoTest.json \
-    vendor/xiaomi/certus/proprietary/vendor/etc/mmigroup/MMIGroupAudioAta.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupAudioAta.json \
-    vendor/xiaomi/certus/proprietary/vendor/etc/mmigroup/MMIGroupAudioManual.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupAudioManual.json \
-    vendor/xiaomi/certus/proprietary/vendor/etc/mmigroup/MMIGroupCameraAta.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupCameraAta.json \
-    vendor/xiaomi/certus/proprietary/vendor/etc/mmigroup/MMIGroupCameraManual.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupCameraManual.json \
-    vendor/xiaomi/certus/proprietary/vendor/etc/mmigroup/MMIGroupIQC.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupIQC.json \
-    vendor/xiaomi/certus/proprietary/vendor/etc/mmigroup/MMIGroupMmiAta.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupMmiAta.json \
-    vendor/xiaomi/certus/proprietary/vendor/etc/mmigroup/MMIGroupMmiAtaManual.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupMmiAtaManual.json \
-    vendor/xiaomi/certus/proprietary/vendor/etc/mmigroup/MMIGroupMmiManual.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupMmiManual.json \
-    vendor/xiaomi/certus/proprietary/vendor/etc/mmigroup/MMIGroupNormal.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupNormal.json \
-    vendor/xiaomi/certus/proprietary/vendor/etc/mmigroup/MMIGroupPcbaAta.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupPcbaAta.json \
-    vendor/xiaomi/certus/proprietary/vendor/etc/mmigroup/MMIGroupPcbaManual.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupPcbaManual.json \
-    vendor/xiaomi/certus/proprietary/vendor/etc/mmigroup/MMIGroupSensorAta.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupSensorAta.json \
-    vendor/xiaomi/certus/proprietary/vendor/etc/mmigroup/MMIGroupSensorManual.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MMIGroupSensorManual.json \
-    vendor/xiaomi/certus/proprietary/vendor/etc/mmigroup/MainMenuConfig.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/MainMenuConfig.json \
-    vendor/xiaomi/certus/proprietary/vendor/etc/mmigroup/factoryInterfaceConfig.json:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/factoryInterfaceConfig.json \
     vendor/xiaomi/certus/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/xiaomi/certus/proprietary/vendor/etc/partition_permission.sh:$(TARGET_COPY_OUT_VENDOR)/etc/partition_permission.sh \
     vendor/xiaomi/certus/proprietary/vendor/etc/permissions/com.fingerprints.extension.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.fingerprints.extension.xml \
@@ -391,33 +371,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/firmware/soc1_0_ram_wifi_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc1_0_ram_wifi_1_1_hdr.bin \
     vendor/xiaomi/certus/proprietary/vendor/lib/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common-util.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/android.hardware.audio.common@5.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@5.0-util.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/cactus_hi556_sunny_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/cactus_hi556_sunny_mipi_raw_IdxMgr.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/cactus_hi556_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/cactus_hi556_sunny_mipi_raw_tuning.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/cactus_india_hi556_sunny_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/cactus_india_hi556_sunny_mipi_raw_IdxMgr.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/cactus_india_hi556_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/cactus_india_hi556_sunny_mipi_raw_tuning.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/cereus_imx486_sunny_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_imx486_sunny_mipi_raw_IdxMgr.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib/cactus_ov13855_ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/cactus_ov13855_ofilm_mipi_raw_tuning.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib/cactus_s5k3l8_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/cactus_s5k3l8_sunny_mipi_raw_tuning.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib/cactus_s5k5e8yx_ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/cactus_s5k5e8yx_ofilm_mipi_raw_tuning.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/cereus_imx486_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_imx486_sunny_mipi_raw_tuning.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/cereus_india_imx486_sunny_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_india_imx486_sunny_mipi_raw_IdxMgr.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/cereus_india_imx486_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_india_imx486_sunny_mipi_raw_tuning.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/cereus_india_ov12a10_ofilm_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_india_ov12a10_ofilm_mipi_raw_IdxMgr.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/cereus_india_ov12a10_ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_india_ov12a10_ofilm_mipi_raw_tuning.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/cereus_india_s5k5e8yx_ofilm_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_india_s5k5e8yx_ofilm_mipi_raw_IdxMgr.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/cereus_india_s5k5e8yx_ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_india_s5k5e8yx_ofilm_mipi_raw_tuning.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/cereus_india_s5k5e8yx_sunny_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_india_s5k5e8yx_sunny_mipi_raw_IdxMgr.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/cereus_india_s5k5e8yx_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_india_s5k5e8yx_sunny_mipi_raw_tuning.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/cereus_india_s5k5e8yxaux_ofilm_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_india_s5k5e8yxaux_ofilm_mipi_raw_IdxMgr.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/cereus_india_s5k5e8yxaux_ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_india_s5k5e8yxaux_ofilm_mipi_raw_tuning.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/cereus_india_s5k5e8yxaux_sunny_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_india_s5k5e8yxaux_sunny_mipi_raw_IdxMgr.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/cereus_india_s5k5e8yxaux_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_india_s5k5e8yxaux_sunny_mipi_raw_tuning.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/cereus_ov12a10_ofilm_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_ov12a10_ofilm_mipi_raw_IdxMgr.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/cereus_ov12a10_ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_ov12a10_ofilm_mipi_raw_tuning.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/cereus_s5k5e8yx_ofilm_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_s5k5e8yx_ofilm_mipi_raw_IdxMgr.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/cereus_s5k5e8yx_ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_s5k5e8yx_ofilm_mipi_raw_tuning.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/cereus_s5k5e8yx_sunny_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_s5k5e8yx_sunny_mipi_raw_IdxMgr.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/cereus_s5k5e8yx_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_s5k5e8yx_sunny_mipi_raw_tuning.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/cereus_s5k5e8yxaux_ofilm_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_s5k5e8yxaux_ofilm_mipi_raw_IdxMgr.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/cereus_s5k5e8yxaux_ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_s5k5e8yxaux_ofilm_mipi_raw_tuning.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/cereus_s5k5e8yxaux_sunny_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_s5k5e8yxaux_sunny_mipi_raw_IdxMgr.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/cereus_s5k5e8yxaux_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/cereus_s5k5e8yxaux_sunny_mipi_raw_tuning.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/com.fingerprints.extension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.fingerprints.extension@1.0.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/egl/egl.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/egl/egl.cfg \
@@ -430,7 +392,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib/hw/android.hardware.audio@5.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@5.0-impl-mediatek.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth.audio@2.0-impl-mediatek.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/hw/android.hardware.camera.provider@2.4-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.camera.provider@2.4-impl-mediatek.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/hw/android.hardware.drm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.drm@1.0-impl.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/hw/android.hardware.graphics.allocator@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.allocator@2.0-impl.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/hw/android.hardware.graphics.composer@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.composer@2.1-impl.so \
@@ -460,10 +421,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib/hw/power.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.mt6765.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/hw/sound_trigger.primary.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sound_trigger.primary.mt6765.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/hw/thermal.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.mt6765.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.callbackclient@1.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.callbackclient@1.2-impl.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.camdump@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.camdump@1.0-impl.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.ccap@1.0-impl.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/hw/vendor.mediatek.hardware.dfps@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.dfps@1.0-impl.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/hw/vendor.mediatek.hardware.gnss@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.gnss@1.1-impl.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
@@ -478,22 +436,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib/interfaces.factoryInterface@1.0-adapter-helper.so:$(TARGET_COPY_OUT_VENDOR)/lib/interfaces.factoryInterface@1.0-adapter-helper.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/interfaces.factoryInterface@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/interfaces.factoryInterface@1.0.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/lbs_hidl_service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lbs_hidl_service-impl.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ae.core.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ae.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/lib3a.af.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.af.core.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/lib3a.af.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.af.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/lib3a.awb.core.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.awb.core.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/lib3a.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.awb.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/lib3a.ccudrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ccudrv.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/lib3a.ccuif.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.ccuif.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/lib3a.flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.flash.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/lib3a.gma.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.gma.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/lib3a.lce.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.lce.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/lib3a.log.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.log.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/lib3a.n3d3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib3a.n3d3a.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libBnMtkCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libBnMtkCodec.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libDR.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDR.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libFaceGrade.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFaceGrade.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libFactoryHALCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFactoryHALCommon.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libFactoryHALSensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFactoryHALSensor.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libFactoryMetaAta.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFactoryMetaAta.so \
@@ -501,7 +445,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib/libIMGegl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libIMGegl.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libJpgDecPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libJpgDecPipe.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libJpgEncPipe.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libMiWatermark.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMiWatermark.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libMtkOmxAdpcmDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAdpcmDec.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libMtkOmxAdpcmEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAdpcmEnc.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libMtkOmxAlacDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkOmxAlacDec.so \
@@ -518,28 +461,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libPVROCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libPVROCL.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libPVRScopeServices.so:$(TARGET_COPY_OUT_VENDOR)/lib/libPVRScopeServices.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libSonyIMX230PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX230PdafLibrary.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libSonyIMX230PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX230PdafLibraryWrapper.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libSonyIMX338PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX338PdafLibrary.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libSonyIMX338PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX338PdafLibraryWrapper.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libSonyIMX386PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX386PdafLibrary.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libSonyIMX386PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX386PdafLibraryWrapper.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libSonyIMX519PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX519PdafLibrary.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libSonyIMX519PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyIMX519PdafLibraryWrapper.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libSwJpgCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSwJpgCodec.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTEECommon.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libXMFD_AgeGender.so:$(TARGET_COPY_OUT_VENDOR)/lib/libXMFD_AgeGender.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_iir.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/lib_lowlight.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_lowlight.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/lib_speech_enh.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_speech_enh.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libabfadp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libabfadp.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libacdk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdk.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libakl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libakl.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapmonitor_vendor.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libarcsoft_dualcam_refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libarcsoft_high_dynamic_range.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_high_dynamic_range.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libasn1c_core_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1c_core_vendor.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libasn1c_mapi_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1c_mapi_vendor.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libasn1c_mdmi_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1c_mdmi_vendor.so \
@@ -567,58 +497,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib/libbufferhubqueue.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbufferhubqueue.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libc2kutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2kutils.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam.ArcCamEngine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.ArcCamEngine.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam.camadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.camadapter.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam.camshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.camshot.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam.client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.client.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam.feature_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.feature_utils.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam.featureio.pipe.panorama.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.featureio.pipe.panorama.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam.hal3a.cctsvr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.cctsvr.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam.hal3a.log.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.log.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam.hal3a.v3.dng.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.dng.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam.hal3a.v3.lsctbl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.lsctbl.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam.hal3a.v3.nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.nvram.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam.hal3a.v3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.hal3a.v3.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam.halisp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.halisp.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam.halsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.halsensor.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam.iopipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.iopipe.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam.jni.lomohaljni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.jni.lomohaljni.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam.lcs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.lcs.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam.legacypipeline.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.legacypipeline.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam.paramsmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.paramsmgr.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam.pdtblgen.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.pdtblgen.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam.postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.postproc.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam.utils.sensorprovider.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.utils.sensorprovider.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam.vhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.vhdr.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam1_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam1_utils.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam3_contextbuilder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam3_contextbuilder.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam3_hwpipeline.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam3_hwpipeline.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam3a_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam3a_imem.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcam_extension.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam_extension.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcamalgo.abf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.abf.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcamalgo.asd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.asd.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcamalgo.dngop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.dngop.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcamalgo.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.eis.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcamalgo.fdft.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.fdft.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcamalgo.flicker.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.flicker.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcamalgo.fsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.fsc.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcamalgo.gyro.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.gyro.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcamalgo.ispfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.ispfeature.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcamalgo.lsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.lsc.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcamalgo.mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.mfnr.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcamalgo.n3d.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.n3d.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcamalgo.nr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.nr.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcamalgo.refocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.refocus.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcamalgo.utility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.utility.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcamalgo.vsf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.vsf.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcamalgo.warp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamalgo.warp.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcamdrv_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_imem.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcamdrv_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_isp.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcamdrv_tuning_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_tuning_mgr.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcamdrv_twin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamdrv_twin.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcamera_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_client.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcameracustom.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.eis.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libcameracustom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libcares_naptr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcares_naptr.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcarrierconfig.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libccci_util.so \
@@ -632,14 +510,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib/libdng_sdk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdng_sdk.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpframework.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libdrm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrm.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libeffecthal.base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libeffecthal.base.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libfeature.face.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature.face.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libfeature.stereo.provider.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature.stereo.provider.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libfeature.vsdof.hal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature.vsdof.hal.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libfeature_3dnr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature_3dnr.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libfeature_eis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature_eis.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libfeature_fsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature_fsc.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libfeature_rss.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfeature_rss.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libfft_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfft_vendor.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfgauge_gm30.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
@@ -668,9 +538,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib/libicui18n.so:$(TARGET_COPY_OUT_VENDOR)/lib/libicui18n.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libicuuc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libicuuc.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libifcutils_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libifcutils_mtk.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libimageio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libimageio_plat_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio_plat_drv.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libimageio_plat_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimageio_plat_pipe.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libimsg_log.so:$(TARGET_COPY_OUT_VENDOR)/lib/libimsg_log.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libion_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_mtk.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libion_ulit.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_ulit.so \
@@ -682,16 +549,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib/libmediaextractor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmediaextractor.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libmediametrics.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmediametrics.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libmemtrack_GL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmemtrack_GL.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmfllcore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmfllcore.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libmhalImageCodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmhalImageCodec.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmibokeh_mt6762.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmibokeh_mt6762.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libminikin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminikin.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminiui.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libmmprofile.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmprofile.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libmnl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmnl.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libmp4enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_sa.ca7.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libmp4enc_xa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_xa.ca7.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libmrdumpv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmrdumpv.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmsbc_mtk.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libmt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmt.so \
@@ -700,42 +563,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib/libmtk-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtk-ril.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtk_drvb.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libmtkaudio_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkaudio_utils.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam.DualCam.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.DualCam.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam.adv_setting.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.adv_setting.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam.featurepipe.bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.featurepipe.bokeh.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam.featurepipe.depthmap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.featurepipe.depthmap.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam.featurepipe.isppipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.featurepipe.isppipe.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam.featurepipe.streaming.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.featurepipe.streaming.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam.featurepipe.vsdof_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.featurepipe.vsdof_util.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam.logicalmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.logicalmodule.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam.eventcallback.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.eventcallback.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_debugutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_debugutils.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_device1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_device1.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_device3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_device3.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_device3_app.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_device3_app.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_dpe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_dpe.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_exif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_exif.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_fdvt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_fdvt.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_fwkutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_fwkutils.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_grallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_grallocutils.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_hwnode.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_hwnode.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_hwutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_hwutils.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_imem.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_imgbuf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_imgbuf.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_metadata.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_metastore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_metastore.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_modulefactory_aaa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_modulefactory_aaa.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_modulefactory_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_modulefactory_custom.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_modulefactory_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_modulefactory_drv.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_modulefactory_feature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_modulefactory_feature.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_modulefactory_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_modulefactory_utils.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_modulehelper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_modulehelper.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_pipeline.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_pipeline.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_rsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_rsc.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_stdutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_stdutils.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_streamutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_streamutils.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_sysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_sysutils.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_tsf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_tsf.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_tuning_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_tuning_utils.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcam_ulog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_ulog.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libmtkconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkconfig.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libmtkconfigutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkconfigutils.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/libmtkcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcutils.so \
@@ -804,19 +635,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/mediadrm/libmockdrmcryptoplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libmockdrmcryptoplugin.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/mibokeh_mt6762_opencl.bin:$(TARGET_COPY_OUT_VENDOR)/lib/mibokeh_mt6762_opencl.bin \
     vendor/xiaomi/certus/proprietary/vendor/lib/vendor.mediatek.hardware.apmonitor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.apmonitor@1.0.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/vendor.mediatek.hardware.atci@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.atci@1.0.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/vendor.mediatek.hardware.audio@5.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.audio@5.1.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/vendor.mediatek.hardware.camera.callbackclient@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.callbackclient@1.0.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/vendor.mediatek.hardware.camera.callbackclient@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.callbackclient@1.1.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/vendor.mediatek.hardware.camera.callbackclient@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.callbackclient@1.2.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/vendor.mediatek.hardware.camera.camdump@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.camdump@1.0.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/vendor.mediatek.hardware.camera.ccap@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.ccap@1.0.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/vendor.mediatek.hardware.camera.device@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.device@1.1.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/vendor.mediatek.hardware.camera.frhandler@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.frhandler@1.0.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/vendor.mediatek.hardware.camera.lomoeffect@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.lomoeffect@1.0.so \
-    vendor/xiaomi/certus/proprietary/vendor/lib/vendor.mediatek.hardware.camera.security@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.security@1.0.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/vendor.mediatek.hardware.dfps@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.dfps@1.0.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/vendor.mediatek.hardware.engineermode@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.engineermode@1.0.so \
     vendor/xiaomi/certus/proprietary/vendor/lib/vendor.mediatek.hardware.engineermode@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.engineermode@1.1.so \
@@ -858,10 +681,31 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib/vendor.microtrust.hardware.capi@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.microtrust.hardware.capi@2.0.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common-util.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/android.hardware.audio.common@5.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@5.0-util.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/cactus_hi556_sunny_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cactus_hi556_sunny_mipi_raw_IdxMgr.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/cactus_hi556_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cactus_hi556_sunny_mipi_raw_tuning.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/cactus_ov13855_ofilm_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cactus_ov13855_ofilm_mipi_raw_IdxMgr.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/cactus_ov13855_ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cactus_ov13855_ofilm_mipi_raw_tuning.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/cactus_s5k3l8_sunny_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cactus_s5k3l8_sunny_mipi_raw_IdxMgr.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/cactus_s5k3l8_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cactus_s5k3l8_sunny_mipi_raw_tuning.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/cactus_s5k5e8yx_ofilm_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cactus_s5k5e8yx_ofilm_mipi_raw_IdxMgr.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/cactus_s5k5e8yx_ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cactus_s5k5e8yx_ofilm_mipi_raw_tuning.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/cereus_imx486_sunny_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cereus_imx486_sunny_mipi_raw_IdxMgr.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/cereus_imx486_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cereus_imx486_sunny_mipi_raw_tuning.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/cereus_ov12a10_ofilm_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cereus_ov12a10_ofilm_mipi_raw_IdxMgr.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/cereus_ov12a10_ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cereus_ov12a10_ofilm_mipi_raw_tuning.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/cereus_s5k5e8yx_ofilm_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cereus_s5k5e8yx_ofilm_mipi_raw_IdxMgr.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/cereus_s5k5e8yx_ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cereus_s5k5e8yx_ofilm_mipi_raw_tuning.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/cereus_s5k5e8yx_sunny_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cereus_s5k5e8yx_sunny_mipi_raw_IdxMgr.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/cereus_s5k5e8yx_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cereus_s5k5e8yx_sunny_mipi_raw_tuning.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/cereus_s5k5e8yxaux_ofilm_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cereus_s5k5e8yxaux_ofilm_mipi_raw_IdxMgr.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/cereus_s5k5e8yxaux_ofilm_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cereus_s5k5e8yxaux_ofilm_mipi_raw_tuning.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/cereus_s5k5e8yxaux_sunny_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cereus_s5k5e8yxaux_sunny_mipi_raw_IdxMgr.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/cereus_s5k5e8yxaux_sunny_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/cereus_s5k5e8yxaux_sunny_mipi_raw_tuning.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/hw/android.hardware.audio.effect@5.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@5.0-impl.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/hw/android.hardware.audio@5.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@5.0-impl-mediatek.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth.audio@2.0-impl-mediatek.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-mediatek.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/hw/android.hardware.camera.provider@2.4-impl-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.camera.provider@2.4-impl-mediatek.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/hw/audio.primary.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt6765.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/hw/audio.r_submix.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mt6765.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/hw/audio.usb.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.usb.mt6765.so \
@@ -871,9 +715,26 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib64/hw/kmsetkey.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/kmsetkey.mt6765.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/hw/libSoftGatekeeper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/libSoftGatekeeper.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/hw/sensors.mt6765.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.mt6765.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.bgservice@1.1-impl.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.core.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/lib3a.af.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.af.core.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/lib3a.af.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.af.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/lib3a.awb.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.awb.core.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/lib3a.awb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.awb.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/lib3a.ccudrv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ccudrv.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/lib3a.ccuif.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ccuif.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/lib3a.flash.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.flash.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/lib3a.gma.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.gma.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/lib3a.lce.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.lce.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/lib3a.log.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.log.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/lib3a.n3d3a.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.n3d3a.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libJpgEncPipe.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkSpeechEnh.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTEECommon.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/lib_bsscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bsscore.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_iir.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/lib_speech_enh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_speech_enh.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so \
@@ -898,20 +759,135 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libbluetooth_relayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_relayer.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetoothem_mtk.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-vendor.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcam.feature_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.feature_utils.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcam.hal3a.cctsvr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.cctsvr.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcam.hal3a.log.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.log.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcam.hal3a.v3.dng.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.v3.dng.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcam.hal3a.v3.lsctbl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.v3.lsctbl.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcam.hal3a.v3.nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.v3.nvram.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcam.hal3a.v3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.hal3a.v3.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcam.halisp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.halisp.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcam.halsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.halsensor.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcam.iopipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.iopipe.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcam.lcs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.lcs.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcam.pdtblgen.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.pdtblgen.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcam.utils.sensorprovider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.utils.sensorprovider.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcam.vhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.vhdr.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcam3a_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam3a_imem.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcamalgo.3dnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.3dnr.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcamalgo.abf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.abf.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcamalgo.asd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.asd.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcamalgo.dngop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.dngop.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcamalgo.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.eis.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcamalgo.fdft.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.fdft.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcamalgo.flicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.flicker.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcamalgo.fsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.fsc.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcamalgo.gyro.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.gyro.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcamalgo.hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.hdr.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcamalgo.ispfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.ispfeature.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcamalgo.lmv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.lmv.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcamalgo.lsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.lsc.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcamalgo.mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.mfnr.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcamalgo.nr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.nr.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcamalgo.utility.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.utility.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcamalgo.warp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.warp.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcamdrv_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamdrv_imem.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcamdrv_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamdrv_isp.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcamdrv_tuning_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamdrv_tuning_mgr.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcamdrv_twin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamdrv_twin.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcameracustom.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.eis.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libcameracustom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvsd_mtk.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libdirect-coredump.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdirect-coredump.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libeffecthal.base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeffecthal.base.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libfeature.face.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.face.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libfeature.stereo.provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.stereo.provider.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libfeature_3dnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_3dnr.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libfeature_eis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_eis.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libfeature_fsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_fsc.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libfeature_lmv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_lmv.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libfeature_rss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_rss.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libfeatureiodrv_mem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeatureiodrv_mem.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libhwm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwm.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libimageio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimageio.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libimageio_plat_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimageio_plat_drv.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libimageio_plat_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimageio_plat_pipe.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libimsg_log.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libimsg_log.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libjpeg-alpha-oal_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpeg-alpha-oal_vendor.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libjpeg-alpha_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjpeg-alpha_vendor.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libkmsetkey.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkmsetkey.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libksensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libksensor.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libladder.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/liblpcnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblpcnr.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmfllcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmfllcore.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmsbc_mtk.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libmtee.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtee.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk_drvb.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam.eventcallback.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.eventcallback.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam.featurepipe.capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.featurepipe.capture.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam.featurepipe.streaming.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.featurepipe.streaming.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam.featurepipe.vsdof_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.featurepipe.vsdof_util.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam.logicalmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.logicalmodule.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_3rdparty.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_3rdparty.core.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_3rdparty.customer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_3rdparty.customer.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_3rdparty.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_3rdparty.mtk.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_3rdparty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_3rdparty.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_calibration_convertor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_calibration_convertor.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_calibration_provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_calibration_provider.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_debugutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_debugutils.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_device3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_device3.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_device3_app.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_device3_app.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_exif.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_exif.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_fdvt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_fdvt.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_featurepolicy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_featurepolicy.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_fwkutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_fwkutils.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_grallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_grallocutils.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_hwnode.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hwnode.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_hwutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_hwutils.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_imem.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_imgbuf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_imgbuf.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_metadata.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_metastore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_metastore.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_modulefactory_aaa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_modulefactory_aaa.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_modulefactory_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_modulefactory_custom.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_modulefactory_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_modulefactory_drv.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_modulefactory_feature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_modulefactory_feature.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_modulefactory_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_modulefactory_utils.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_modulehelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_modulehelper.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_pipeline.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipeline.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_pipeline_fbm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipeline_fbm.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_pipelinemodel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinemodel.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_pipelinemodel_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinemodel_adapter.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_pipelinemodel_capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinemodel_capture.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_pipelinemodel_session.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinemodel_session.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_pipelinemodel_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinemodel_utils.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_pipelinemodel_zsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinemodel_zsl.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_pipelinepolicy-security.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinepolicy-security.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_pipelinepolicy-smvr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinepolicy-smvr.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_pipelinepolicy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinepolicy.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_pipelinepolicy_factory.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_pipelinepolicy_factory.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_prerelease.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_prerelease.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_rsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_rsc.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_stdutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_stdutils.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_streamutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_streamutils.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_synchelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_synchelper.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_sysutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_sysutils.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_tuning_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_tuning_utils.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libmtkcam_ulog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_ulog.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libsensor_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_custom.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeech_enh_lib.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libspeechparser_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeechparser_vendor.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/libstereoinfoaccessor_vsdof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstereoinfoaccessor_vsdof.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libudf.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/vendor.mediatek.hardware.audio@5.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.audio@5.1.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.atms@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.atms@1.0.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.bgservice@1.0.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.bgservice@1.1.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.frhandler@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.frhandler@1.0.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.lomoeffect@1.0.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so \
+    vendor/xiaomi/certus/proprietary/vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.camera.security@1.0.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.0.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so \
     vendor/xiaomi/certus/proprietary/vendor/lib64/vendor.microtrust.hardware.capi@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.microtrust.hardware.capi@2.0.so \
